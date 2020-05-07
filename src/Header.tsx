@@ -12,7 +12,7 @@ export default function Header() {
           {'Hi, I am Ezra'}
         </Text>
         <Text pt={10} variant="custom" color="robinsEgg">
-          {'Mobile Developer.'}
+          {'Front End Developer.'}
         </Text>
         <Text py={10} variant="custom" color="robinsEgg">
           {'Based in Auckland, NZ'}
