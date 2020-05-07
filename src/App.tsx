@@ -1,31 +1,21 @@
 import React from 'react'
 import { ThemeProvider } from 'emotion-theming'
-import preset from '@rebass/preset'
-import Section from './Section'
-import NavBar from './NavBar'
 import Header from './Header'
-
-const theme = {
-  ...preset,
-  colors: {
-    ...preset.colors,
-    primary: '#f4f4f4',
-    secondary: '#ffffff',
-    slateGrey: '#6a6d74',
-    denim: '#375777',
-    darkPeach: '#e3865d',
-    steel: '#868a91',
-  },
-}
+import Skills from './Skills'
+import Dots from './Dots'
+import Projects from './Projects'
+import WorkHistory from './WorkHistory'
+import theme from './themes/theme'
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <NavBar />
+      {/* <NavBar /> */}
+      <Dots></Dots>
       <Header />
-      <Section title={'Key Skills'} background={'Secondary'} />
-      <Section title={'Recent projects'} />
-      <Section title={'Work History'} background={'Secondary'} />
+      <Skills />
+      <Projects />
+      <WorkHistory />
     </ThemeProvider>
   )
 }
