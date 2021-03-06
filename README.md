@@ -1,1 +1,1 @@
-# ezrabathini.dev
+# ezrabathini.com
